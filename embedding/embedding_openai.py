@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-os.environ['OPENAIAPIKEY'] = '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'
+
 
 class Embedding_openai():
     def __init__(self) -> None:

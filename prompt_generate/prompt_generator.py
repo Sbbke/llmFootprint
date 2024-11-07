@@ -13,7 +13,7 @@ ENCODING = "gpt-4o-mini"  # encoding for text-davinci-003
 EMBEDDING_MODEL = "text-embedding-3-small"
 COMPLETIONS_MODEL = "gpt-4o-mini"
 
-os.environ['OPENAIAPIKEY'] = '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'
+
 client = OpenAI(api_key=os.getenv('OPENAIAPIKEY'))
 
 encoding = tiktoken.encoding_for_model('gpt-4o-mini')
